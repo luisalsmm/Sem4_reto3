@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav__ul {
+    text-align: center;
+}
+
+.nav__li {
+	display: inline-block;
+    padding: 7px;
+    margin-right: 100px;
+}
+
+.nav__li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.img_intro {
+    margin: 0;
+    padding: 0;
+    background-image:url(./images/buffet-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+.section2 {
+ display: grid;
+ grid-template-columns: repeat(2, 50%) 1fr;
+ margin-bottom: 30px;
+}
+
+.img_somos {
+    width: 100%;
+}
+
+p {
+    padding: 10px;
+}
+
+.grid_img {
+    margin-bottom: 50px;
+}
+
+.img_catering {
+    margin: 0;
+    padding: 0;
+    background-image:url(./images/food-table.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.grid_list {
+    /* width: 100%; */
+    display: flex;
+    text-align: center;
+}
+
+.img_grid {
+    width: 100%
+    
+}
+
+p {
+    text-align: center;
+}
+
+.div_border {
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+.div_catering {
+    height: 300px;
+    border: 1px solid grey;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.grid_list2 {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h4 {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.section_catering {
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+}
+
+.form_div {
+    margin-left: 50px;
+}
+
+.mensaje {
+    margin-left: 50px;
+}
+
+span {
+    margin-left: 50px;
+
+}
+
+.button {
+    margin-left: 50px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+}
+
+.contacto {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
