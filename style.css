@@ -1,22 +1,72 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
 * {
     box-sizing: border-box;
 }
 
-.nav__ul {
-    text-align: center;
+.container_menu {
+    justify-content: center;
+    
 }
 
-.nav__li {
-	display: inline-block;
-    padding: 7px;
-    margin-right: 100px;
+
+.menu {
+    /* background-color: yellowgreen; */
+    /* height: 70px; */
+    padding: 23px 0px;
+    width: 1200px;
+    /* display: block; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.nav__li a{
+.menu_items {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 30px; */
+}
+
+.menu_items li {
+    /* margin: 0 7px; */
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+
+    /* display: list-item; */
+    /* margin-left: 80px; */
+ 
+
+}
+
+.menu_items li a{
+    /* padding: 7px 20px; */
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    display: block;
+    
+
 }
+
+.linea {
+    border-top: 1px solid red;
+    width: 100px;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    margin-bottom: 30px;
+}
+
+.contact {
+    border: 1px solid red;
+    padding: 15px 30px;
+}
+
 
 .logo {
     width: 10%;
@@ -166,3 +216,4 @@ span {
     background-color: black;
     color: white;
 }
+
